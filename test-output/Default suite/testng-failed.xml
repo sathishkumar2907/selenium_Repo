@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.tvisha.test.LoginTest">
+        <methods>
+          <include name="SetUp_Browser"/>
+          <include name="test_login" invocation-numbers="0"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.tvisha.test.LoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
